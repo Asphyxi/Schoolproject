@@ -21,15 +21,6 @@ class Car:
     def __str__(self):
         return str(self.Position)
 
-l = Node(Car(1)), Node(Car(2)), Node(Car(3)), Node (Car(Empty))
-while not IsEmpty():
-
-    for i in range(0, 10):
-
-
-
-
-
 def Main():
   x = 0
   y = 0

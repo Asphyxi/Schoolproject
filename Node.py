@@ -16,7 +16,7 @@ class Node:
 class Car:
     def __init__(self, Position):
         self.Position = Position
-    def Move(self,Position):
+    def Move(self):
         self.Position += 1
     def __str__(self):
         return str(self.Position)
