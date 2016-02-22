@@ -1,4 +1,4 @@
-package sample;
+package Test;
 
 /**
  * Created by Admin on 15-2-2016.
@@ -34,16 +34,15 @@ public class Counter {
     }
 
     /**
-     * This integer contains the current value of the counter.
+     * This integer contains the current countLabel of the counter.
      */
     private int count;
+    private int time;
 
     /**
-     * This method adds 1 to the current value of {@link Counter#count}.
+     * This method adds 1 to the current countLabel of {@link Counter#count}.
      */
-    public void tick() {
-        count++;
-    }
+
 
     /**
      * This method will set {@link Counter#count} back to 0.
@@ -52,10 +51,11 @@ public class Counter {
         count = 0;
     }
 
+
     /**
      * This method will return the current {@link Counter#count}.
      *
-     * @return integer value of {@link Counter#count}
+     * @return integer countLabel of {@link Counter#count}
      */
     public int getCount() {
         return count;
