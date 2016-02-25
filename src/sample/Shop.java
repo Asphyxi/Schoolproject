@@ -48,7 +48,7 @@ public class Shop {
             Doekoez.getInstance().setDoekoe(
                     Doekoez.getInstance().getDoekoe() - item.getCost()
             );
-            Doekoez.getInstance().setTickSize(
+                    Doekoez.getInstance().setTickSize(
                     Doekoez.getInstance().getTickSize() + item.getIncreasedSize()
             );
         }

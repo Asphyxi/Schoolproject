@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
-<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="425.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Button layoutX="238.0" layoutY="267.0" mnemonicParsing="false" onAction="#add" prefHeight="40.0" prefWidth="125.0" text="Click" />
-        <Label fx:id="countLabel" alignment="CENTER" layoutX="201.0" layoutY="21.0" prefHeight="20.0" prefWidth="200.0" text="0" />
-      <Button layoutX="511.0" layoutY="18.0" mnemonicParsing="false" onAction="#cost1" prefHeight="25.0" prefWidth="89.0" text="Vaseline" />
-      <Button layoutX="511.0" layoutY="43.0" mnemonicParsing="false" onAction="#cost2" prefHeight="25.0" prefWidth="89.0" text="bol.com" />
-      <Button layoutX="519.0" layoutY="68.0" mnemonicParsing="false" onAction="#cost3" prefHeight="25.0" prefWidth="89.0" text="apple" />
-      <Button layoutX="519.0" layoutY="93.0" mnemonicParsing="false" onAction="#cost4" prefHeight="25.0" prefWidth="89.0" text="coolblue" />
-      <Button layoutX="519.0" layoutY="118.0" mnemonicParsing="false" onAction="#cost5" prefHeight="25.0" prefWidth="89.0" text="skydive" />
+
+        <Button layoutX="0" layoutY="60.0" mnemonicParsing="false" onAction="#add" prefHeight="360.0" prefWidth="495.0">
+            <graphic>
+                <ImageView fitHeight="360.0" fitWidth="495.0" layoutX="0" layoutY="60.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@Chamani.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label fx:id="countLabel" alignment="CENTER" layoutX="42.0" layoutY="21.0" prefHeight="20.0" prefWidth="428.0" text="0" />
+        <Button layoutX="511.0" layoutY="18.0" mnemonicParsing="false" onAction="#cost1" prefHeight="25.0" prefWidth="89.0" text="Vaseline" />
+        <Button layoutX="511.0" layoutY="43.0" mnemonicParsing="false" onAction="#cost2" prefHeight="25.0" prefWidth="89.0" text="bol.com" />
+        <Button layoutX="511.0" layoutY="68.0" mnemonicParsing="false" onAction="#cost3" prefHeight="25.0" prefWidth="89.0" text="apple" />
+        <Button layoutX="511.0" layoutY="93.0" mnemonicParsing="false" onAction="#cost4" prefHeight="25.0" prefWidth="89.0" text="coolblue" />
+        <Button layoutX="511.0" layoutY="118.0" mnemonicParsing="false" onAction="#cost5" prefHeight="25.0" prefWidth="89.0" text="skydive" />
+
     </children>
 </Pane>

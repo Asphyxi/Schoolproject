@@ -4,6 +4,7 @@ import javafx.scene.control.Label;
 
 public class Controller {
     public Label countLabel;
+    public Label stringLabel;
 
     public void add() {
         Doekoez.getInstance().tick();
@@ -16,13 +17,13 @@ public class Controller {
     }
 
     public void cost2() {
-        Shop.getInstance().buyItem(Shop.ITEMS.C);
+        Shop.getInstance().buyItem(Shop.ITEMS.B);
         update();
 
     }
 
     public void cost3() {
-        Shop.getInstance().buyItem(Shop.ITEMS.B);
+        Shop.getInstance().buyItem(Shop.ITEMS.C);
         update();
     }
 

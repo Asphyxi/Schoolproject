@@ -36,9 +36,9 @@ public class Doekoez {
     public int getDoekoe() {return money;}
 
     public void setDoekoe(int money) {
-        if(this.money - money < 0) {
-            throw new IllegalStateException("MONEY HAS REACHED AN UNREACHABLE STATE YOU FUCKING DUMB ASS!");
-        }
+//        if(this.money - money <= 0) {
+//            throw new IllegalStateException("MONEY HAS REACHED AN UNREACHABLE STATE YOU FUCKING DUMB ASS!");
+//        }
 
         this.money = money;
     }
