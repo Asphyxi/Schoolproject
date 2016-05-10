@@ -26,6 +26,8 @@
         <Button layoutX="511.0" layoutY="68.0" mnemonicParsing="false" onAction="#cost3" prefHeight="25.0" prefWidth="89.0" text="apple" />
         <Button layoutX="511.0" layoutY="93.0" mnemonicParsing="false" onAction="#cost4" prefHeight="25.0" prefWidth="89.0" text="coolblue" />
         <Button layoutX="511.0" layoutY="118.0" mnemonicParsing="false" onAction="#cost5" prefHeight="25.0" prefWidth="89.0" text="skydive" />
+      <Label fx:id="updateLabel" layoutX="556.0" layoutY="384.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="0" />
+      <Button layoutX="511.0" layoutY="143.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Button" />
 
     </children>
 </Pane>

@@ -24,8 +24,8 @@ public class Shop {
         A(10, 1),
         B(25, 5),
         C(50, 10),
-        D(100, 10),
-        E(250, 50);
+        D(200, 15),
+        E(500, 20);
 
         ITEMS(int cost, int increasedSize) {
             this.cost = cost;
